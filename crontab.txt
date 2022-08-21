@@ -1,0 +1,2 @@
+@reboot /home/j/bin/minidlna-1.3.0/minidlnad -f /home/j/bin/minidlna-1.3.0/minidlna.conf
+
