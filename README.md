@@ -8,8 +8,12 @@ sudo apt install libid3tag0
 
 Add somenthing like that to your crontab:
 
+```
 @reboot [path-this-folder]/minidlnad -f [path-this-folder]/minidlna.conf
+```
 
-Edit:
+Edit minidlna.conf:
 
-media_dir=/home/j/Downloads
+```
+media_dir=[path-to-your-media-files]
+```
